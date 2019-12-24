@@ -10,12 +10,17 @@
 <body>
 <?php
 
-echo "este es el primer mensaje <br>";
-
 function dameDatos()
 {
     echo "Este es el mensaje al interior de la funcion <br>";
 }
+
+?>
+<?php
+
+echo "este es el primer mensaje <br>";
+
+
 dameDatos();
 
 echo "este es el segundo mensaje <br>"
