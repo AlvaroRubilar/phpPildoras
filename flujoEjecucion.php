@@ -8,18 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<?php
 
-function dameDatos()
-{
-    echo "Este es el mensaje al interior de la funcion <br>";
-}
 
-?>
+
 <?php
 
 echo "este es el primer mensaje <br>";
 
+include ("proporcionaDatos.php");
 
 dameDatos();
 
