@@ -12,10 +12,8 @@
 
 $nombre = "Alvaro";
 
-function dameNombre()
-{
-    $nombre="María";//local
-}
+include("datosOtros.php");
+
 dameNombre();
 
 echo $nombre;
