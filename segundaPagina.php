@@ -13,7 +13,7 @@
 
 $nombre = "Alvaro";
 $edad = 19;
-print "El nombre de usuario es: " . $nombre;
+print "El nombre de usuario es: $nombre"  ;
 
 ?>
 </body>
