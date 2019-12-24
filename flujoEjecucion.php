@@ -14,8 +14,9 @@ echo "este es el primer mensaje <br>";
 
 function dameDatos()
 {
-    echo "Este es el mensaje al interior de la funcion";
+    echo "Este es el mensaje al interior de la funcion <br>";
 }
+dameDatos();
 
 echo "este es el segundo mensaje <br>"
 ?>
