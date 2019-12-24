@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .resaltar{
-            color:#F00;
+        .resaltar {
+            color: #F00;
             font-weight: bold;
         }
 
@@ -16,8 +16,8 @@
 </head>
 <body>
 <?php
-
-echo "<p class=\"resaltar\"> esto es un ejemplo de frase</p>";
+$nombre = "Álvaro";
+echo "Hola $nombre";
 
 
 ?>
