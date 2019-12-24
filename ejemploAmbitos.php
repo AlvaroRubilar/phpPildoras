@@ -12,7 +12,11 @@
 
 $nombre = "Alvaro";
 
-include("datosOtros.php");
+function dameNombre()
+{
+    global $nombre;
+    $nombre = "El nombre es: ".$nombre;
+}
 
 dameNombre();
 
