@@ -16,8 +16,12 @@
 </head>
 <body>
 <?php
-$nombre = "Álvaro";
-echo "Hola $nombre";
+
+$variable1 = "casa";
+$variable2 = "CASA";
+$resultado = strcmp($variable1,$variable2);
+echo "El resultado es $resultado";
+
 
 
 ?>
