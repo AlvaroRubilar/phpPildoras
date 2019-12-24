@@ -8,16 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-
 <?php
 
-$nombre = "Alvaro";
+echo "este es el primer mensaje <br>";
 
-$edad = 19;
+function dameDatos()
+{
+    echo "Este es el mensaje al interior de la funcion";
+}
 
-echo $nombre, $edad;
-
-
+echo "este es el segundo mensaje <br>"
 ?>
 </body>
 </html>
+
