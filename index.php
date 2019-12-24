@@ -8,9 +8,12 @@
 </head>
 <body>
     <?php
-    print "Bienvenidos al curso de PHP <br>";
+    print "Bienvenidos al curso de PHP <br>"; //imprime y hace salto de línea
     print "Hola alumnos <br>";
-    print "Hasta el próximo video";
+    print "Hasta el próximo video <br>";
+    print "Lo logré en phpStorm ";
+    /* otra forma de escribir comentarios*/
+
     ?>
 </body>
 </html>
