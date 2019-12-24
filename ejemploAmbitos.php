@@ -8,20 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-
-
-
 <?php
 
-echo "este es el primer mensaje <br>";
+$nombre = "Alvaro";
 
-include ("proporcionaDatos.php");
+function dameNombre()
+{
+    $nombre="María";//local
+}
+dameNombre();
 
-dameDatos();
+echo $nombre;
 
-echo "este es el segundo  mensaje <br>"
+
 ?>
-
 </body>
 </html>
-
