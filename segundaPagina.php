@@ -9,5 +9,12 @@
 </head>
 <body>
 
+<?php
+
+$nombre = "Alvaro";
+$edad = 19;
+print "El nombre de usuario es: " . $nombre;
+
+?>
 </body>
 </html>
