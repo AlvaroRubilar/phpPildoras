@@ -19,7 +19,7 @@
 
 $variable1 = "casa";
 $variable2 = "CASA";
-$resultado = strcmp($variable1,$variable2);
+$resultado = strcasecmp($variable1,$variable2);
 echo "El resultado es $resultado";
 
 
