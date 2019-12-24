@@ -12,10 +12,11 @@
 
 function incrementaVariable()
 {
-    $contador = 0;
+    static $contador = 0;
     $contador++;
-    echo $contador. "<br>";
+    echo $contador . "<br>";
 }
+
 incrementaVariable();
 incrementaVariable();
 incrementaVariable();
