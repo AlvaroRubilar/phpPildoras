@@ -20,7 +20,7 @@
 $variable1 = "casa";
 $variable2 = "CASA";
 $resultado = strcasecmp($variable1,$variable2);
-echo $resultado? "No coinciden" : "Coinciden";
+echo !$resultado? "Coinciden" : "No coinciden" ;
 
 
 
