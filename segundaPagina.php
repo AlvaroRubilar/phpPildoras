@@ -15,7 +15,7 @@ $nombre = "Alvaro";
 
 $edad = 19;
 
-echo "El nombre es " . $nombre . " y tiene " . $edad;
+echo $nombre,$edad;
 
 
 ?>
