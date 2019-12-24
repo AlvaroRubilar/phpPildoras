@@ -17,7 +17,7 @@
 <body>
 <?php
 
-echo "<p class='resaltar'> esto es un ejemplo de frase</p>";
+echo "<p class=\"resaltar\"> esto es un ejemplo de frase</p>";
 
 
 ?>
