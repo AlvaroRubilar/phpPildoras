@@ -12,8 +12,11 @@
 <?php
 
 $nombre = "Alvaro";
+
 $edad = 19;
-print 'El nombre de usuario es: $nombre'  ;
+
+echo "El nombre es " . $nombre . " y tiene " . $edad;
+
 
 ?>
 </body>
