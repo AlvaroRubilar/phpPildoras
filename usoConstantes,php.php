@@ -10,8 +10,8 @@
 <body>
 <?php
 
-define("AUTOR", "Alvaro");
-echo "El nombre del autor es: " . AUTOR;
+define("AUTOR", "Alvaro",true);
+echo "El nombre del autor es: " . autor;
 ?>
 </body>
 </html>
