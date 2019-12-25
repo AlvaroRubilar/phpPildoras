@@ -14,7 +14,7 @@ $variable1=8;
 $variable2="8";
 $variable3="Alvaro";
 
-echo $variable1===$variable2? "Son iguales":"No son iguales";
+echo $variable1!=$variable3? "Son diferentes":"No son diferentes";
 
 ?>
 </body>
