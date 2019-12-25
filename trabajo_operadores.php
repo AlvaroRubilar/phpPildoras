@@ -33,7 +33,7 @@
 <body>
 <h1>USANDO OPERADORES COMPARACIÓN</h1>
 
-<form action="validacion.php" method="post" name="datos_usuario" id="datos_usuario">
+<form method="post" name="datos_usuario" id="datos_usuario">
   <table width="15%" align="center">
     <tr>
       <td>Nombre:</td>
@@ -56,7 +56,7 @@
 </form>
 <?php
 
-if(isset($_POST["enviado"])){
+if(isset($_POST["enviando"])){
 
     $usuario=$_POST["nombre_usuario"];
     $edad=$_POST["edad_usuario"];
