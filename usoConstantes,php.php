@@ -11,7 +11,8 @@
 <?php
 
 define("AUTOR", "Alvaro",true);
-echo "El nombre del autor es: " . autor;
+
+echo "La linea de esta instrucción es: ". __Line__;
 ?>
 </body>
 </html>
