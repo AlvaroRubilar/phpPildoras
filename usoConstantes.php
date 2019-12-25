@@ -10,9 +10,10 @@
 <body>
 <?php
 
-define("AUTOR", "Alvaro",true);
+define("AUTOR", "Alvaro", true);
 
-echo "La linea de esta instrucción es: ". __Line__;
+echo "La linea de esta instrucción es: " . __Line__ . "<br>";
+echo "Estamos trabajando con: " . __FILE__;
 ?>
 </body>
 </html>
