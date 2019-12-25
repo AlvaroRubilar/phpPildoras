@@ -12,12 +12,6 @@
 
 <?php
 
-if (isset($_POST["button"])) {
-    $numero1 = $_POST["num1"];
-    $numero2 = $_POST["num2"];
-    $operacion = $_POST["operacion"];
-    calcular($operacion);
-}
 
 function calcular($calculo){
     global $numero1,$numero2;
@@ -40,6 +34,16 @@ function calcular($calculo){
     if (!strcmp("Módulo", $calculo)) {
         $resultado =($numero1 % $numero2);
         echo "<p class='resultado'> El resto al dividir $numero1 entre $numero2 es: $resultado </p> "  ;
+    }
+    if (!strcmp("Incremento", $calculo)) {
+        $numero1++;
+        $resultado=$numero1;
+        echo "<p class='resultado'> El incremento  es: $resultado </p> "  ;
+    }
+    if (!strcmp("Decremento", $calculo)) {
+        $numero1--;
+        $resultado=$numero1;
+        echo "<p class='resultado'> El decremento  es: $resultado </p> "  ;
     }
 
 }
