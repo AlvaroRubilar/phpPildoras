@@ -10,8 +10,8 @@
 <body>
 <?php
 $num1 = "5";
-$num1+=2; //covierte un string en int
-echo " El número es: " . $num1;
+$resultado=(int)$num1;
+
 ?>
 </body>
 </html>
