@@ -12,7 +12,7 @@
 
 $var1 = true;
 $var2 = false;
-$resultado = $var1 && $var2;
+$resultado = $var1 and $var2;//igualdad tiene prioridad
 
 echo $resultado == true ? "Correcto" : "Incorrecto";
 
