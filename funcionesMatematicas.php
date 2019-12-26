@@ -9,8 +9,8 @@
 </head>
 <body>
 <?php
-$num1 = pow(5,3);
-echo " El número es: $num1 ";
+$num1 = 5.25;
+echo " El número es: " . round($num1);
 ?>
 </body>
 </html>
