@@ -9,8 +9,8 @@
 </head>
 <body>
 <?php
-$num1 = rand(10, 50);
-echo " El nùmero es: $num1 ";
+$num1 = pow(5,3);
+echo " El número es: $num1 ";
 ?>
 </body>
 </html>
