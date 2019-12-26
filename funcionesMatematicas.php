@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-$num1=rand();
+$num1 = rand(10, 50);
 echo " El nùmero es: $num1 ";
 ?>
 </body>
