@@ -9,8 +9,9 @@
 </head>
 <body>
 <?php
-$num1 = 5.7556454;
-echo " El número es: " . round($num1,2);
+$num1 = "5";
+$num1+=2; //covierte un string en int
+echo " El número es: " . $num1;
 ?>
 </body>
 </html>
