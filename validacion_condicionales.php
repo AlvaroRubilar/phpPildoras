@@ -26,11 +26,10 @@
 
 <?php
 if (isset($_POST["enviando"])) {
-    $edad = $_POST["edad_usuario"];
-
-
-    $resultado = $edad < 18 ? "Eres menor de edad no tienes acceso" : "Eres mayor de edad puedes acceder";
+    $nombre = $_POST["nombre_usuario"];
+    $contra = $_POST["contra"];
+    $resultado = $nombre == "Alvaro" && $contra == "1234" ? "Puedes acceder" : "No puedes acceder";
     echo $resultado;
 }
 
-?>
+    ?>
