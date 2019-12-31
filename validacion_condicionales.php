@@ -28,16 +28,8 @@
 if (isset($_POST["enviando"])) {
     $edad = $_POST["edad_usuario"];
 
-//    if ($edad <= 18) {
-//        echo "Eres menor de edad";
-//    } else if ($edad <= 40) {
-//        echo "Eres joven";
-//    } else if ($edad <= 65) {
-//        echo "Eres maduro";
-//    } else {
-//        echo "Cuídate";
-//    }
-    echo $edad<=18? "Eres menor de edad":($edad<=40? "Eres joven":($edad<=65? "Eres maduro":"Cuídate"));
+
+    echo $edad<18? "Eres menor de edad no tienes acceso": "Eres mayor de edad puedes acceder";
 }
 
 ?>
