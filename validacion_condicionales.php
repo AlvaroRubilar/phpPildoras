@@ -2,16 +2,19 @@
     h1 {
         text-align: center;
     }
+
     table {
         background-color: #FFC;
         padding: 5px;
         border: #666 5px solid;
     }
+
     .no_validado {
         font-size: 18px;
         color: #F00;
         font-weight: bold;
     }
+
     .validado {
         font-size: 18px;
         color: #0C3;
@@ -21,7 +24,7 @@
 
 <?php
 if (isset($_POST["enviando"])) {
-    $edad = $_POST["edad_usuario"];
+    $contra = $_POST["contra"];
     $nombre = $_POST["nombre_usuario"];
 //    if ($edad <= 18) {
 //        echo "Eres menor de edad";
@@ -32,15 +35,15 @@ if (isset($_POST["enviando"])) {
 //    } else {
 //        echo "Cuídate";
 //    }
-    switch ($nombre){
+    switch (true) {
 
-        case "Juan":
+        case $nombre == "Juan" && $contra == "1234":
             echo "Usuario autorizado, hola $nombre";
             break;
-        case "María":
+        case $nombre == "María" && $contra == "5555":
             echo "Usuario autorizado, hola $nombre";
             break;
-        case "Pedro":
+        case $nombre == "Pedro" && $contra == "1111":
             echo "Usuario autorizado, hola $nombre";
             break;
         default:
